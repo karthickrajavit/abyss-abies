@@ -1,0 +1,19 @@
+{
+  "services": [
+    {
+      "name": "payment",
+      "request": {
+        "method": "post",
+        "baseUri": "https://42318850-2938-44f8-9f84-11deada69a85.mock.pstmn.io",
+        "methodPath" : "/makePayment",
+        "headers": {
+          "merchantId": "6318323",
+          "requestId": "$Var.requestId"
+        },
+        "queryParams": {
+          "paymentCountry": "India"
+        }
+      }
+    }
+  ]
+}

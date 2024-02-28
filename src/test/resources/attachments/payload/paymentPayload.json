@@ -1,0 +1,22 @@
+{
+  "amount": 100.00,
+  "currency": "USD",
+  "card": {
+    "number": "4242424242424242",
+    "exp_month": 12,
+    "exp_year": 2025,
+    "cvc": "123",
+    "name": "John Doe"
+  },
+  "billing_address": {
+    "line1": "123 Main St",
+    "city": "Anytown",
+    "state": "CA",
+    "postal_code": "12345",
+    "country": "US"
+  },
+  "metadata": {
+    "order_id": "123456",
+    "customer_id": "789"
+  }
+}
